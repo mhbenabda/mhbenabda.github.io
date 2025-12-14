@@ -31,8 +31,6 @@ latest_posts:
 <br>
 <br>
 <br>
-<br>
-<br>
 Hi 👋, I’m Habib.
 
 Welcome to my personal website! This is a place to share my work, my interests, and my thoughts.

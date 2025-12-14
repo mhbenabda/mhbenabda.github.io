@@ -5,9 +5,7 @@
     "image": "",
     "email": "mh.benabda@gmail.com",
     "url": "https://mhbenabda.github.io/",
-    "summary": "Specializing in embedded systems, sensor electronics, and firmware for wearables and medical devices. Experienced in
-creating low-noise acquisition circuits, developing human–machine interfaces, and integrating hardware–software
-systems for robust signal aquisition and processing."
+    "summary": "Specializing in embedded systems, sensor electronics, and firmware for wearables and medical devices. Experienced in creating low-noise acquisition circuits, developing human–machine interfaces, and integrating hardware–software systems for robust signal aquisition and processing."
   },
   "work": [
     {
@@ -16,11 +14,8 @@ systems for robust signal aquisition and processing."
       "url": "https://example.com",
       "startDate": "2024-04-01",
       "endDate": "2024-08-01",
-      "summary": "I was contributing to the orthopedic robotics team during the design transfer and market introduction phase of the spinal surgery robot ""Velys Spine""",
-      "highlights": ["Automated optical tracking accuracy assessment for spine surgery robot extensions, using C++,
-reducing validation time by 90%, and supporting pre-market verification workflows.",
-                     "Assisted in various electrical/mechanical engineering tasks such as CTQ (Critical To Quality)
-definition, IEC 60601 assessment, DFM (Design For Manufacturing) and S&R (Service & Repair) improvements."]
+      "summary": "I was contributing to the orthopedic robotics team during the design transfer and market introduction phase of the spinal surgery robot \"Velys Spine\"",
+      "highlights": ["Automated optical tracking accuracy assessment for spine surgery robot extensions, using C++, reducing validation time by 90%, and supporting pre-market verification workflows.","Assisted in various electrical/mechanical engineering tasks such as CTQ (Critical To Quality) definition, IEC 60601 assessment, DFM (Design For Manufacturing) and S&R (Service & Repair) improvements."]
     }
   ],
   "volunteer": [
