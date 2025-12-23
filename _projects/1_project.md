@@ -4,8 +4,8 @@ title: Deep-Infrared Wearables for Continuous Blood Pressure Monitoring
 description: Master Thesis
 img: assets/img/Deepview.jpg
 importance: 1
-category: work
-related_publications: true
+category: 
+related_publications: false
 ---
 
 This thesis is currently still on-going and this page will be updated soon.
@@ -44,3 +44,15 @@ To address these gaps, I am developing a low-power wearable platform featuring t
 ### Work to Date & Roadmap
 
 So far, I developed an experimental board to do sensor integration and explore different optical configurations (LED/Photodiode). I'm also implementing the firmware using Zephyr RTOS on an nRF52 platform to ensure low-power, real-time data acquisition. The next step would be data collection and signal analysis to identify the optimal optical path and wavelength combination.Finally, I will design a compact wearable version to generate large datasets including during everyday activity and test BPM models to answer my research question.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/exp_board.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/optics_board.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Experiment board for sensor integration and exploring different optical configurations.
+</div>
