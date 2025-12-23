@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blood Pressure Measurement Wearable
+title: Deep-Infrared Wearables for Continuous Blood Pressure Monitoring
 description: Master Thesis
 img: assets/img/Deepview.jpg
 importance: 1
@@ -20,10 +20,27 @@ This thesis is currently still on-going and this page will be updated soon.
     System Overview
 </div>
 
-### Overview
-There is an extensive amount of work in literature on designing different machine learning models for blood pressure measurement (BPM) using photoplethysmography (PPG), with very good results at first glace. The common way to do is to collect sensor data and corresponding labels from a medical grade device and train a neural net to map one to the other. Although well intentioned, existing papers don't mention the fact that the input signal from standrad PPG+ECG doen't contain enough information for predicting BPM. Additionally, existing models are non-generalizable due hardware sensitive datasets and lack of available data due to their medical nature. 
+## Overview
 
-To solve this I'm building a low-power wearable platform with the heighst end analog-front-end (AFE) on the market for PPG and ECG to collect data all day long to achieve continuous BPM. Additionally, I'm trying to answer teh following research question:\n
-* Can we embedd more features in the PPG signal, by using deep infrared wavelengths (beyond 1000nm) to predict BPM?
 
-So far, I started by developping an experiment board to do sensor integration, explore different sensor designs on the optics side (LEDs and Photodiodes), and run RTOS the board. The next step is to start collecting and analysing the data to find teh optimal design. Finally, I will create a more compact version with a wearable format, generate a dataset, and test different machine learning models to answer my research question.
+**The Challenge: Why Current ML-BPM Fails**
+
+While literature is saturated with Machine Learning models for Blood Pressure Monitoring (BPM) using Photoplethysmography (PPG), most results are misleading and cannot be translated to the real-world. I have identified three critical bottlenecks in the current state-of-the-art:
+
+1. **Information Scarcity:** Standard PPG and ECG signals don't contain enough information to predict blood pressure, making common approach foundamentally wrong.
+
+2. **Dataset Sensitivity:** Existing models are frequently "overfit" to a specific hardware or to the public dataset used, making them non-generalizable across different sensors.
+
+3. **Data Scarcity:** The medical nature of BP data leads to small, proprietary datasets that hinder deep learning progress. Additionally, existing data is overconstrained where data far from normal range is discarded as outliers or noise, which statistically simplifies the task, but limits model detecting abnormal cases.
+
+#### My Approach: Deep-Infrared Sensing & Edge Integration
+
+To address these gaps, I am developing a low-power wearable platform featuring the highest-grade Analog Front-Ends (AFE) currently available. My research explores a novel hardware-first solution to the "missing information" problem.
+
+### Primary Research Question:
+
+* Can the integration of Deep-Infrared wavelengths (beyond 1000nm) provide additional physiological features in the PPG signal to improve the accuracy and generalizability of continuous BPM?
+
+### Work to Date & Roadmap
+
+So far, I developed an experimental board to do sensor integration and explore different optical configurations (LED/Photodiode). I'm also implementing the firmware using Zephyr RTOS on an nRF52 platform to ensure low-power, real-time data acquisition. The next step would be data collection and signal analysis to identify the optimal optical path and wavelength combination.Finally, I will design a compact wearable version to generate large datasets including during everyday activity and test BPM models to answer my research question.
