@@ -9,37 +9,114 @@
   },
   "work": [
     {
-      "name": "Johnson & Johnson",
-      "position": "Digital and Robotics R&D Intern",
-      "url": "https://example.com",
-      "startDate": "2024-04-01",
+      "name": "Real World Robotics ETH",
+      "position": "Teacher Assistant",
+      "url": "",
+      "startDate": "2025-08-01",
+      "endDate": "2025-12-31",
+      "summary": "Zurich, Switzerland",
+      "highlights": ["Delivered a workshop and project-based assignments for a robotics course, mentoring 30 students on sensing technologies in robotic hands."]
+    },
+    {
+      "name": "Johnson & Johnson MedTech",
+      "position": "Intern Digital & Robotics R&D",
+      "url": "",
+      "startDate": "2024-03-01",
       "endDate": "2024-08-01",
-      "summary": "I was contributing to the orthopedic robotics team during the design transfer and market introduction phase of the spinal surgery robot \"Velys Spine\"",
-      "highlights": ["Automated optical tracking accuracy assessment for spine surgery robot extensions, using C++, reducing validation time by 90%, and supporting pre-market verification workflows.","Assisted in various electrical/mechanical engineering tasks such as CTQ (Critical To Quality) definition, IEC 60601 assessment, DFM (Design For Manufacturing) and S&R (Service & Repair) improvements."]
+      "summary": "Basel, Switzerland",
+      "highlights": [
+        "Automated optical tracking accuracy assessment for spine surgery robot extensions, using C++, reducing validation time by 90%, and supporting pre-market verification workflows.",
+        "Assisted in various electrical/mechanical engineering tasks such as CTQ (Critical To Quality) definition, IEC 60601 assessment, DFM (Design For Manufacturing) and S&R improvements."
+      ]
+    },
+    {
+      "name": "Chipiron",
+      "position": "Electronics Engineer Intern",
+      "url": "",
+      "startDate": "2023-06-01",
+      "endDate": "2023-09-01",
+      "summary": "Paris, France",
+      "highlights": [
+        "Prototyped and tested a mixed-signal control system for MRI magnetic-field stabilization using a microcontroller and PID loop; worked with precision, low-noise analog front-ends under strong EMI constraints.",
+        "Designed, simulated, and validated a cryogenic low-noise filter for a high-precision magnetic sensor, improving signal integrity through EMI reduction and impedance-optimized filtering."
+      ]
+    },
+    {
+      "name": "Biosensors Lab @ UIUC",
+      "position": "Research Assistant",
+      "url": "",
+      "startDate": "2022-08-01",
+      "endDate": "2023-01-01",
+      "summary": "Illinois, USA",
+      "highlights": ["Programmed an FPGA in Verilog to control biomedical camera lens focus for cancer cell detection during surgery and coded in Python to control testing instruments."]
+    },
+    {
+      "name": "EPFL",
+      "position": "Teacher Assistant",
+      "url": "https://www.epfl.ch/",
+      "startDate": "2021-09-01",
+      "endDate": "2022-07-01",
+      "summary": "Lausanne, Switzerland",
+      "highlights": ["Tutored groups of 10–40 students during weekly exercise sessions in the following courses: Electronics, General Physics, Thermodynamics, Analytical Geometry"]
+    },
+    {
+      "name": "EPFL Spacecraft Team",
+      "position": "Project Manager / Power Systems Engineer",
+      "url": "",
+      "startDate": "2021-02-01",
+      "endDate": "2022-07-01",
+      "summary": "Lausanne, Switzerland",
+      "highlights": [
+        "Led a 2.7M CHF space mission to send the first student-led Swiss constellation of cube-satellites, managing interdisciplinary sub-teams to meet deadlines and ensure seamless collaboration.",
+        "Pioneered and guided a major organizational strategy shift and persuaded 10+ university and industry partners to support this new vision.",
+        "Optimized the satellite's power budget and operation schedule using MATLAB orbit simulations."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "ETH Zurich",
       "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "url": "https://ethz.ch/",
+      "area": "Electrical Engineering & Information Technology",
+      "studyType": "Master",
+      "startDate": "2023-09-01",
+      "endDate": "2026-05-01",
+      "score": "",
+      "courses": ["Focus: Embedded Systems, Signal Processing, Electronics"]
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "University of Illinois Urbana-Champaign (UIUC)",
+      "location": "Illinois, USA",
+      "url": "https://illinois.edu/",
+      "area": "Exchange Year",
+      "studyType": "Exchange",
+      "startDate": "2022-08-01",
+      "endDate": "2023-06-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "EPFL",
+      "location": "Lausanne, Switzerland",
+      "url": "https://www.epfl.ch/",
+      "area": "Microengineering",
+      "studyType": "Bachelor",
+      "startDate": "2020-09-01",
+      "endDate": "2022-06-01",
+      "score": "",
+      "courses": []
     }
   ],
+  // "awards": [
+  //   {
+  //     "title": "Nobel Prize in Physics",
+  //     "date": "1921-11-01",
+  //     "awarder": "Royal Swedish Academy of Sciences",
+  //     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+  //   }
+  // ],
   "certificates": [
     {
       "name": "Machine Learning",

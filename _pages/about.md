@@ -33,11 +33,22 @@ latest_posts:
 <br>
 Hi 👋, I’m Habib.
 
-Welcome to my personal website! This is a place to share my work, my interests, and my thoughts.
+Welcome to my portfolio! I’m an Electrical Engineer from ETH Zürich and EPFL, specializing in Embedded Systems and Edge AI. I am dedicated to building technology that creates a real-world positive impact.
 
-Currently, I’m an Electrical Engineering graduate at ETH Zürich. I'm interested in building technology that is useful and grounded in real-world positve impact. My main focus is embedded systems and medical technologies, building products that directly improve people’s lives.
+I have 3+ years of experience developing medical devices and high-precision systems. My background includes:
 
-I enjoy solving problems, finding good solutions fast, and thinking about the big picture. What I value most is being surrounded by passionate people, who are driven like me and who bring positive energy with them. 
+- **Johnson & Johnson MedTech:** Worked within the Digital & Robotics R&D team to automate surgical robot tracking accuracy assessment using C++. On top of that I was responsible for IEC60601 evaluation, contributed to design-for-manufacturing (DFM), and change management.
+
+- **Chipiron:** Designed low-noise analog front-ends and mixed-signal control systems for a new generation of MRI machines.
+
+- **Research & Thesis Work:** Developing a deep-infrared blood-pressure wearable using Zephyr RTOS and real-time ECG/PPG processing.
+
+I enjoy solving complex problems, finding efficient solutions quickly, and maintaining a "big picture" perspective. I thrive in environments surrounded by passionate, driven people who bring positive energy to the team.
+
+### Skills
+- Programming: C/C++, RTOS (Zephyr), Python, MATLAB, Verilog
+- AI: PyTorch, TensorFlow Lite, ONNX Runtime, CUDA, Hardware Aware AI. 
+- Hardware: PCB design (Kicad/Altium), ARM Cortex Platforms, Xilinx FPGAs,  LTspice, CAD
 
 ### Education
 - MSc: 2026, ETH Zürich
@@ -53,3 +64,4 @@ I enjoy solving problems, finding good solutions fast, and thinking about the bi
 - Guitar
 - Books
 - Road Trips
+- Learning Languages
