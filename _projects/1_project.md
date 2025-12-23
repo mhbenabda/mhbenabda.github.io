@@ -4,7 +4,7 @@ title: Deep-Infrared Wearables for Continuous Blood Pressure Monitoring
 description: Master Thesis
 img: assets/img/Deepview.jpg
 importance: 1
-category: 
+category: work
 related_publications: false
 ---
 

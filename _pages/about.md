@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master of Science in Electrical Engineering and Information Technology @ ETH Zürich
+subtitle: MSc in Electrical Engineering and Information Technology @ ETH Zürich
 
 profile:
   align: right
@@ -28,7 +28,6 @@ latest_posts:
 ---
 
 
-<br>
 <br>
 <br>
 Hi 👋, I’m Habib.
