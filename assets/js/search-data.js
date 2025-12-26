@@ -411,6 +411,11 @@ ninja.data = [{
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project%20copy/";
+            },},{id: "projects-coughnet",
+          title: 'CoughNet',
+          description: "Ultra-Low Power Embedded AI for Respiratory Monitoring",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
