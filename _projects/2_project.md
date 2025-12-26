@@ -4,7 +4,7 @@ title: CoughNet
 description: Ultra-Low Power Embedded AI for Respiratory Monitoring
 img: assets/img/p2_thumbnail.jpg
 importance: 2
-category: work
+category: 
 ---
 
 ## Overview

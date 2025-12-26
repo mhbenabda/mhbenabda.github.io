@@ -4,7 +4,7 @@ title: Non-invasive Tactile Stimulation
 description: Controller for tTENS to non-invasively provide tactile sensory feedback for non-disabled subjects
 img: assets/img/p3_thumbnail.jpg
 importance: 3
-category: work
+category: 
 ---
 
 ## Definition
