@@ -31,7 +31,7 @@ The stimulation process happens in three steps:
 
 The stimulation parameter space is large (Amplitude, frequency, pulse duration, recovery phase ratio, and interphase duration) and needs to be explored strategicaly. For that, I chose to use the adaptive psychophysical method such as the "Staircase method" and "Maximum-likelihood and Bayesian method" for their efficiency and focus around the region of interest, typically near the threshold. 
 
-<div class="row justify-content-sm-center">
+<div class="row">
     <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/p3_calib.jpg" title="p3_calib" class="img-fluid rounded z-depth-1" %}
     </div>
