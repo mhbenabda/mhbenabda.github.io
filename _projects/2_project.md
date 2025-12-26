@@ -1,81 +1,54 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: CoughNet
+description: Ultra-Low Power Embedded AI for Respiratory Monitoring
+img: assets/img/cough_square.png
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
+CoughNet is an end-to-end Machine Learning project I did in the context of a project based course I took at ETH called "Machine Learning on Microcontrollers". I wanted to achieve continuous, 24/7 monitoring of cough frequency to assess the severity of respiratory diseases and the efficacy of antitussive therapies. By deploying high-performance inference directly on a micrcontroller, I wanted to adress critical requirement for patient privecy and create a proof-of-concept for ultra-low power healthcare monitoring in a wearable form factor. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Hardware-Software Co-desing
+The core innovation of CoughNet lies in its hardware-optimized architecture. While traditional audio classification relies on MFCC (Mel-frequency cepstral coefficients) for feature extraction, this process can consume over 2x more power than the actual neural network inference.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+To solve this I used the MAX78000 which has a CNN accelerator as a target device, and I designed an optimized 1D-CNN architechture that processees raw audio windows directly. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p2_arch.jpg" title="p2_arch" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Target Device Architecture
 </div>
+
+- Dual core: Arm Cortex-M4 + RISC-V Coprocessor​
+- **Convolutional Neural Network Accelerator**​
+- 512KB Flash​
+- 128KB SRAM
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p2_optimized.jpg" title="p2_optimized" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Target Device Architecture
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Dataset and Preprocessing
+The model was trained on the COUGHVID crowdsourcing dataset from the EPFL Embedded Systems Laboratory, featuring approximately 30,000 samples. A pre-existing model was used to filter the dataset from bad samples usually present in crowd-sourced data. Then, I applied **downsampling** to 16kHz to reduce memory without reducing cough information in the signal, **segmentation** to keep only the parts of the signal were there is a cough sound using standard signal processing, **cropping** into 1s overlapping windows, and finally **augmentation** by stretching, shifting and adding different background noises.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+Additionally, some standard keyword classes were added to make the model a bit more complex than just a binary classification. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/p2_preprocessing.jpg" title="p2_preprocessing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Target Device Architecture
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

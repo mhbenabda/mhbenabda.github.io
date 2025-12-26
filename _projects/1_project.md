@@ -37,11 +37,11 @@ While literature is saturated with Machine Learning models for Blood Pressure Mo
 
 To address these gaps, I am developing a low-power wearable platform featuring the highest-grade Analog Front-Ends (AFE) currently available. My research explores a novel hardware-first solution to the "missing information" problem.
 
-### Primary Research Question:
+**Primary Research Question:**
 
 * Can the integration of Deep-Infrared wavelengths (beyond 1000nm) provide additional physiological features in the PPG signal to improve the accuracy and generalizability of continuous BPM?
 
-### Work to Date & Roadmap
+#### Work to Date & Roadmap
 
 So far, I developed an experimental board to do sensor integration and explore different optical configurations (LED/Photodiode). I'm also implementing the firmware using Zephyr RTOS on an nRF52 platform to ensure low-power, real-time data acquisition. The next step would be data collection and signal analysis to identify the optimal optical path and wavelength combination.Finally, I will design a compact wearable version to generate large datasets including during everyday activity and test BPM models to answer my research question.
 
