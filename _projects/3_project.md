@@ -17,7 +17,7 @@ Here I develop a hardware/software platform to flexibly generate TENS patterns a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/p3_overview.jpg" title="p3_overview" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p3_overview.png" title="p3_overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -33,7 +33,7 @@ The stimulation parameter space is large (Amplitude, frequency, pulse duration, 
 
 <div class="row">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/p3_calib.jpg" title="p3_calib" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p3_calib.png" title="p3_calib" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -48,7 +48,7 @@ Additionally, Current-controlled stimulation ensures safety by regulating the ch
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/p3_platform.jpg" title="p3_platform" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p3_platform.png" title="p3_platform" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
