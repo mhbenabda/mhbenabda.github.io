@@ -402,9 +402,9 @@ ninja.data = [{
           section: "News",},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
+          section: "News",},{id: "projects-deepview",
+          title: 'DeepView',
+          description: "Master Thesis: Deep-Infrared Wearables for Continuous Blood Pressure Monitoring",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
