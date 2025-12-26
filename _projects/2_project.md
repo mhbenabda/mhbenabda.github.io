@@ -97,4 +97,4 @@ The best-performing model (Pure 1D-CNN with QAT and 20 classes) yielded the foll
 While cough detection results were excellent despite the limited training capabilities, the future work could potentially be on improving cough counting which is more tricky due to successive combined coughs and varying durations. A potential solution I would consider if I continue on this project would be to explore variable-sized temporal windows.
 
 ## Links
-[Repo](https://github.com/mhbenabda/CoughNet)
+<!-- [Repo](https://github.com/mhbenabda/CoughNet) -->

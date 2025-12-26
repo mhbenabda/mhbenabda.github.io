@@ -63,6 +63,6 @@ The software can be divided into 4 parts:
 - Configurable experiment scripts that will run in the backend.
 
 ## Links
-[Repo](https://github.com/mhbenabda/tTENS)
+<!-- [Repo](https://github.com/mhbenabda/tTENS)
 [Digitimer DS8R](https://www.digitimer.com/product/human-neurophysiology/peripheral-stimulators/ds8r-biphasic-constant-current-stimulator/)
-[Digitimer D188](https://www.digitimer.com/product/human-neurophysiology/stimulator-accessories/d188-remote-electrode-selector/d188-remote-electrode-selector/)
+[Digitimer D188](https://www.digitimer.com/product/human-neurophysiology/stimulator-accessories/d188-remote-electrode-selector/d188-remote-electrode-selector/) -->
