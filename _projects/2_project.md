@@ -65,7 +65,7 @@ The best model depends on the final application resource constraints. While both
 <div class="caption">
     Pure 1D-CNN Model
 </div>
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/p2_2d.jpg" title="p2_2d" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -95,3 +95,6 @@ The best-performing model (Pure 1D-CNN with QAT and 20 classes) yielded the foll
 - **Number of Operations:** 8.4M ops
 
 While cough detection results were excellent despite the limited training capabilities, the future work could potentially be on improving cough counting which is more tricky due to successive combined coughs and varying durations. A potential solution I would consider if I continue on this project would be to explore variable-sized temporal windows.
+
+## Links
+[Repo](https://github.com/mhbenabda/CoughNet)
