@@ -9,12 +9,12 @@ giscus_comments: true
 ---
 
 ## Overview
-CoughNet is an end-to-end Machine Learning project I did in the context of a project based course I took at ETH called "Machine Learning on Microcontrollers". I wanted to achieve continuous, 24/7 monitoring of cough frequency to assess the severity of respiratory diseases and the efficacy of antitussive therapies. By deploying high-performance inference directly on a micrcontroller, I wanted to adress critical requirement for patient privecy and create a proof-of-concept for ultra-low power healthcare monitoring in a wearable form factor. 
+CoughNet is an end-to-end Machine Learning project I did in the context of a project based course I took at ETH called "Machine Learning on Microcontrollers". I wanted to achieve continuous, 24/7 monitoring of cough frequency to assess the severity of respiratory diseases and the efficacy of antitussive therapies. By deploying high-performance inference directly on a micrcontroller, I wanted to adress critical requirement for patient privacy and create a proof-of-concept for ultra-low power healthcare monitoring in a wearable form factor. 
 
-## Hardware-Software Co-desing
+## Hardware-Software Codesing
 The core innovation of CoughNet lies in its hardware-optimized architecture. While traditional audio classification relies on MFCC (Mel-frequency cepstral coefficients) for feature extraction, this process can consume over 2x more power than the actual neural network inference.
 
-To solve this I used the MAX78000 which has a CNN accelerator as a target device, and I designed an optimized 1D-CNN architechture that processees raw audio windows directly. 
+To solve this I used the MAX78000 AI microcontroller which has a CNN accelerator as a target device, and I designed an optimized 1D-CNN architechture that processees raw audio windows directly. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -25,6 +25,7 @@ To solve this I used the MAX78000 which has a CNN accelerator as a target device
     Target Device Architecture
 </div>
 
+##### Key Features:
 - Dual core: Arm Cortex-M4 + RISC-V Coprocessor​
 - **Convolutional Neural Network Accelerator**​
 - 512KB Flash​
@@ -36,7 +37,7 @@ To solve this I used the MAX78000 which has a CNN accelerator as a target device
     </div>
 </div>
 <div class="caption">
-    Target Device Architecture
+    Method Comparision.
 </div>
 
 ## Dataset and Preprocessing
