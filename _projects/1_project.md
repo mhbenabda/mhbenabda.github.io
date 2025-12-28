@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Deep-Infrared Wearables for Continuous Blood Pressure Monitoring
-description: Master Thesis
-img: assets/img/Deepview.jpg
+title: DeepView
+description: "Master Thesis: Deep-Infrared Wearable for Continuous Blood Pressure Monitoring"
+img: assets/img/p1_deepview.jpg
 importance: 1
 category: work
 related_publications: false
@@ -13,7 +13,7 @@ This thesis is currently still on-going and this page will be updated soon.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Deepview.jpg" title="Deepview" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/p1_deepview.jpg" title="Deepview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

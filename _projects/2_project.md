@@ -66,7 +66,7 @@ The best model depends on the final application resource constraints. While both
     Pure 1D-CNN Model
 </div>
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/p2_2d.png" title="p2_2d" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

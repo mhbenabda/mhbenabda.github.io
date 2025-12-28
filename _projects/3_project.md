@@ -29,7 +29,7 @@ The stimulation process happens in three steps:
 - **Mapping:** Mapping consist in finding the areas in the wrist, elbow or amputee's residual limb that provoke a distal percept in the (phantom) hand. This is possible by stimulating the peripheral nerves, mainly the median and ulnar nerves. The location of the electrode will influence the strength and quality of the referred sensation
 - **Calibration:** The calibration step consists in tuning the stimulation parameters for each stimulation location to understand and improve the evoked sensation. The most commonly performed experiment is to generate a psychofunction for detecting the minimum threshold. 
 
-The stimulation parameter space is large (Amplitude, frequency, pulse duration, recovery phase ratio, and interphase duration) and needs to be explored strategicaly. For that, I chose to use the adaptive psychophysical method such as the "Staircase method" and "Maximum-likelihood and Bayesian method" for their efficiency and focus around the region of interest, typically near the threshold. 
+  The stimulation parameter space is large (Amplitude, frequency, pulse duration, recovery phase ratio, and interphase duration) and needs to be explored strategicaly. For that, I chose to use the adaptive psychophysical method such as the "Staircase method" and "Maximum-likelihood and Bayesian method" for their efficiency and focus around the region of interest, typically near the threshold. 
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -63,6 +63,8 @@ The software can be divided into 4 parts:
 - Configurable experiment scripts that will run in the backend.
 
 ## Links
-[Repo](https://github.com/mhbenabda/tTENS)
+[Repo](https://github.com/mhbenabda/tTENS) 
+
 [Digitimer DS8R](https://www.digitimer.com/product/human-neurophysiology/peripheral-stimulators/ds8r-biphasic-constant-current-stimulator/)
+
 [Digitimer D188](https://www.digitimer.com/product/human-neurophysiology/stimulator-accessories/d188-remote-electrode-selector/d188-remote-electrode-selector/)
