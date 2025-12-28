@@ -31,8 +31,8 @@ The stimulation process happens in three steps:
 
 The stimulation parameter space is large (Amplitude, frequency, pulse duration, recovery phase ratio, and interphase duration) and needs to be explored strategicaly. For that, I chose to use the adaptive psychophysical method such as the "Staircase method" and "Maximum-likelihood and Bayesian method" for their efficiency and focus around the region of interest, typically near the threshold. 
 
-<div class="row">
-    <div class="col-sm-12 mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/p3_calib.png" title="p3_calib" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -46,8 +46,8 @@ The stimulation parameter space is large (Amplitude, frequency, pulse duration, 
 The advantage of the Digitimer DS8R Stimulator is that it can generate charge-balanced biphasic rectangular pulses as the fundamental building blocks. This could reduce discomfort which is a common issue associated with noninvasive monophasic stimulation or excessive charge density.
 Additionally, Current-controlled stimulation ensures safety by regulating the charge density delivered by each waveform regardless of the impedance at the electrode-skin interface.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/p3_platform.png" title="p3_platform" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

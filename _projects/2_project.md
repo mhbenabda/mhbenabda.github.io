@@ -4,7 +4,7 @@ title: CoughNet
 description: Ultra-Low Power Embedded AI for Respiratory Monitoring
 img: assets/img/p2_thumbnail.jpg
 importance: 2
-category: 
+category: work
 ---
 
 ## Overview
@@ -65,8 +65,8 @@ The best model depends on the final application resource constraints. While both
 <div class="caption">
     Pure 1D-CNN Model
 </div>
-<div class="row">
-    <div class="col-sm-10 mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/p2_2d.png" title="p2_2d" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
