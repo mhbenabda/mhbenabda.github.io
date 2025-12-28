@@ -407,19 +407,14 @@ ninja.data = [{
           description: "Master Thesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project%20copy/";
             },},{id: "projects-coughnet",
           title: 'CoughNet',
           description: "Ultra-Low Power Embedded AI for Respiratory Monitoring",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-non-invasive-tactile-stimulation",
+          title: 'Non-invasive Tactile Stimulation',
+          description: "Controller for tTENS to non-invasively provide tactile sensory feedback for non-disabled subjects",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
