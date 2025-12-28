@@ -30,7 +30,7 @@ latest_posts:
 
 <br>
 <br>
-Hi 👋, I’m Habib.
+Hi 👋, I’m Habib
 
 Welcome to my portfolio! I’m an Electrical Engineer from ETH Zürich and EPFL, specializing in Embedded Systems and Edge AI. I am dedicated to building technology that creates a real-world positive impact.
 
