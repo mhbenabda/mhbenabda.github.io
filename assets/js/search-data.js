@@ -417,9 +417,9 @@ ninja.data = [{
           description: "Controller for tTENS to non-invasively provide tactile sensory feedback for non-disabled subjects",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-deep-learning-reconstruction-of-optoacoustic-images-on-fpga",
+          title: 'Deep Learning Reconstruction of Optoacoustic images on FPGA',
+          description: "Deep Learning on AMD Kria™ K26 SOM optimized for the DPU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
